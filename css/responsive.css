@@ -112,3 +112,48 @@
     font-weight: 200;
   }
 }
+/* 287px */
+@media (max-width: 287px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 1.8em;
+  }
+
+  header nav {
+    margin-top: 14px;
+  }
+
+  header nav a {
+    font-size: 0.5em;
+  }
+
+  main .techs .cards-container .card {
+    width: 45px;
+    height: 45px;
+  }
+
+  main .main-content .text h2,
+  .main-content .techs h2 {
+    font-size: 1.5em;
+  }
+
+  main figure img {
+    width: 200px;
+    height: 200px;
+  }
+
+  main .techs .cards-container .card img {
+    width: 40px;
+  }
+
+  footer span {
+    font-size: 0.5rem;
+    font-weight: 200;
+  }
+}
