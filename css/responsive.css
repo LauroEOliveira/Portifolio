@@ -61,4 +61,12 @@
     width: 250px;
     height: 250px;
   }
+
+  footer {
+    font-size: 0.9em;
+  }
+
+  main .techs .cards-container .card img {
+    width: 50px;
+  }
 }
